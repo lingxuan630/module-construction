@@ -1,6 +1,6 @@
 /**
  * App.js 
- * 用于启动整个页面
+ * 用于启动
  */
 define(['config.js', 
 			  'components/route-recognizer/route-recognizer.js'], function(Config, RouteRecognizer){

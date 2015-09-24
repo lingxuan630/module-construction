@@ -13,7 +13,7 @@ define('helpers/http', ['jquery'], function($){
 	function commonHandler(options){
 		var defferd = $.Deferred();
 
-		options = options ? options : {};
+		var options = options ? options : {};
 
 		$.ajax(options)
 		.done(function(data){
